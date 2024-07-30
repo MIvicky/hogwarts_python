@@ -21,17 +21,27 @@ str_list = list(str)
 # islower() 如果 string 中包含至少一个区分大小写的字符，并且所有这些(区分大小写的)字符都是小写，则返回 True，否则返回 False
 
 # 设置字典记录字符出现的次数
-char_count = {}
+# 如果不设置key及key的初始值，那么当用户输入的字符串中没有某种字符时，则最后的输出结果统计就不会有那一选项
+char_count = {
+    "uppercase": 0,
+    "lowercase": 0,
+    "digit": 0,
+    "others": 0
+}
 
 for char in str_list:
     if char.isupper():
-        char_count["uppercase"] = char_count.get("uppercase", 0) + 1
+        # char_count["uppercase"] = char_count.get("uppercase", 0) + 1
+        char_count["uppercase"] += 1
     elif char.islower():
-        char_count["lowercase"] = char_count.get("lowercase", 0) + 1
+        # char_count["lowercase"] = char_count.get("lowercase", 0) + 1
+        char_count["lowercase"] += 1
     elif char.isdigit():
-        char_count["digit"] = char_count.get("digit", 0) + 1
+        # char_count["digit"] = char_count.get("digit", 0) + 1
+        char_count["digit"] += 1
     else:
-        char_count["others"] = char_count.get("others", 0) + 1
+        # char_count["others"] = char_count.get("others", 0) + 1
+        char_count["others"] += 1
 
 for name, value in char_count.items():
     print(f"{name}的出现次数为：{value}")
