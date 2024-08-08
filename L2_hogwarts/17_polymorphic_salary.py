@@ -19,20 +19,24 @@ class FullTimeEmployee(Employee):
     def __init__(self, hours, hourly_rate):
         super().__init__(hours, hourly_rate)
 
-    def cal_salary(self):
-        return self.hours * self.hourly_rate
+    def salary(self):
+        return f"全职员工的工资为: {self.hours * self.hourly_rate}"
 
 class PartTimeEmployee(Employee):
     def __init__(self, hours, hourly_rate):
         super().__init__(hours, hourly_rate)
 
-    def cal_salary(self):
-        return self.hours * self.hourly_rate
+    def salary(self):
+        return f"兼职员工的工资为: {self.hours * self.hourly_rate}"
+
+def cal_salary(worker_type):
+    if isinstance(worker_type, Employee):
+        return worker_type.salary()
 
 full_time_worker = FullTimeEmployee(240, 200)
-print(f"全职员工的工资为: {full_time_worker.cal_salary()}")
+print(cal_salary(full_time_worker))
 # 全职员工的工资为: 48000
 
 part_time_worker = PartTimeEmployee(70, 25)
-print(f"兼职员工的工资为: {part_time_worker.cal_salary()}")
+print(cal_salary(part_time_worker))
 # 兼职员工的工资为: 1750
