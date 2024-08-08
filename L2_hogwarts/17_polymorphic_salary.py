@@ -12,7 +12,7 @@ class Employee:
         self.hours = hours
         self.hourly_rate = hourly_rate
 
-    def cal_salary(self):
+    def salary(self):
         pass
 
 class FullTimeEmployee(Employee):
