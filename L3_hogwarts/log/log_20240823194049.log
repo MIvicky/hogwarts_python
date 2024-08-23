@@ -1,0 +1,21 @@
+2024-08-23 19:40:49,185 - logging_demo.py [line:49] - DEBUG - =========程序开始运行==========
+2024-08-23 19:40:49,185 - logging_demo.py [line:31] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:40:49,185 - logging_demo.py [line:46] - INFO - Get_Data 函数执行结束
+2024-08-23 19:40:49,185 - logging_demo.py [line:21] - INFO - Show 函数被调用，开始执行
+2024-08-23 19:40:49,185 - logging_demo.py [line:23] - INFO - Show 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:26] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:28] - WARNING - Display 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:31] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:46] - INFO - Get_Data 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:26] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:28] - WARNING - Display 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:26] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:28] - WARNING - Display 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:31] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:46] - INFO - Get_Data 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:26] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:28] - WARNING - Display 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:31] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:46] - INFO - Get_Data 函数执行结束
+2024-08-23 19:40:49,186 - logging_demo.py [line:21] - INFO - Show 函数被调用，开始执行
+2024-08-23 19:40:49,186 - logging_demo.py [line:23] - INFO - Show 函数执行结束

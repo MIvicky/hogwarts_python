@@ -1,0 +1,22 @@
+2024-08-23 19:42:39,092 - logging_demo.py [line:50] - DEBUG - =========程序开始运行==========
+2024-08-23 19:42:39,092 - logging_demo.py [line:22] - INFO - Show 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:24] - INFO - Show 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:32] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:47] - INFO - Get_Data 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:27] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:29] - WARNING - Display 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:27] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:29] - WARNING - Display 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:22] - INFO - Show 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:24] - INFO - Show 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:32] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:47] - INFO - Get_Data 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:32] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:42] - ERROR - list index out of range
+2024-08-23 19:42:39,092 - logging_demo.py [line:47] - INFO - Get_Data 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:32] - INFO - Get_data 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:47] - INFO - Get_Data 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:27] - WARNING - Display 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:29] - WARNING - Display 函数执行结束
+2024-08-23 19:42:39,092 - logging_demo.py [line:22] - INFO - Show 函数被调用，开始执行
+2024-08-23 19:42:39,092 - logging_demo.py [line:24] - INFO - Show 函数执行结束
